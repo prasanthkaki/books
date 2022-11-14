@@ -1,0 +1,7 @@
+1. php artisan migrate - To create tables in the DB.
+2. To Load the xml file. I have added one api where it will accept only xml file as an input. It will insert the author into the authors table and either insert or update the book details with author
+3. http://127.0.0.1:8000/author - Search window to search with the name of the Author.
+4. All my controller Logic will be in BookController and AuthorController Files inside the directory Controllers.
+5. All my DB Logic will be in BookModel and AuthorModel Files inside the directory Models.
+6. Here is the postman collection to add the authors and books in the DB - https://www.getpostman.com/collections/7a79506c4480be3cb0d3
+7. I have added my xml in the laravel project for your reference.
